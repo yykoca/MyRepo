@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section.yasir {
+    display: flex;
+    background-color: cadetblue;
+    padding: 40px;
+    text-align: center;
+    color: bisque;
+    font-size: 2em;
+    text-shadow: 1px -2px 3px darkslategrey;
+}
+section h1 {
+    width: 100%;
+    padding: 10px;
+}
+
+section.menu {
+    text-align: center;
+    background-color: #D96943;
+}
+section.menu ul {
+    display: inline-flex;
+}
+section ul li {
+    display: block;
+    width: 120px;
+    list-style-type: none;
+    padding: 10px;
+    color: darkslategrey;
+}
+section ul li:hover {
+    color: #D96943;
+    background-color: bisque;
+    cursor: pointer;
+}
+
+/* ----- FOOTER ----- */
+footer {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-left: 5%;
+    line-height: 500%;
+    background-color: bisque;
+}

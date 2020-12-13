@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* ----- HEADER ----- */
 section.yasir {
     display: flex;
     background-color: cadetblue;
@@ -17,7 +18,11 @@ section h1 {
     padding: 10px;
 }
 
+/* ----- NAV-BAR ----- */
 section.menu {
+    position: sticky;
+    top: 0;
+    width: 100%;
     text-align: center;
     background-color: #D96943;
 }
@@ -36,11 +41,38 @@ section ul li:hover {
     background-color: bisque;
     cursor: pointer;
 }
+section ul li:active {
+    background-color: black;
+}
+
+/* ----- HOME ----- */
+.home {
+    height: 100vh;
+    text-align: center;
+}
+section.home h1 {
+    position: absolute;
+    top: 50%;
+    font-size: 3rem;
+    font-family: monospace;
+}
+
+/* ----- BLOG ----- */
+.blog {
+    height: 100vh;
+    padding: 50px 10px 10px 10px;
+}
+
+/* ----- OTHER ----- */
+.skills, .projekt, .kontakt {
+    height: 100vh;
+    padding: 50px 10px 10px 10px;
+}
 
 /* ----- FOOTER ----- */
 footer {
     display: block;
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
     padding-left: 5%;

@@ -44,6 +44,10 @@ section ul li:hover {
 section ul li:active {
     background-color: black;
 }
+.menu ul li a{
+    text-decoration: none;
+    color: darkblue;
+}
 
 /* ----- HOME ----- */
 .home {
@@ -55,6 +59,7 @@ section.home h1 {
     top: 50%;
     font-size: 3rem;
     font-family: monospace;
+    z-index: -1;
 }
 
 /* ----- BLOG ----- */
